@@ -1,12 +1,13 @@
 
 # open-with-zotero
 
-This tool opens PDF files located within Zotero’s local `storage` directory by extracting the 8-character subfolder name (e.g., `N7SMB24A`) that Zotero assigns to each library item. It uses this ID to generate and launch a `zotero://open-pdf/library/items/` URI for direct access in the Zotero desktop app.
+This tool allows you to jump directly to the corresponding item in the Zotero desktop app by right-clicking a PDF file stored in Zotero’s local storage directory in Windows Explorer and selecting the **"Open with Zotero"** option.
 
 ## 🛠️ What It Does
 
-- Adds an **"Open with Zotero"** option to the Windows right-click menu for PDF files stored in Zotero’s `storage` folder. This lets you jump directly to the file' corresponding item in the Zotero desktop app.
-- Works with tools like **AnyText Searcher**: after finding a file via text search, you can quickly open it in Zotero.
+- Extracts the 8-character subfolder name (e.g., N7SMB24A) from Zotero’s local storage directory that Zotero assigns to each library item and using it to generate a zotero://open-pdf/library/items/ URI, which opens the item directly in Zotero.
+- Adds an **"Open with Zotero"** option to the Windows right-click menu for PDF files stored in Zotero’s `storage` folder. This lets you jump directly to the file's corresponding item in the Zotero desktop app.
+- Able to work with tools like **AnyText Searcher**: after finding a file via text search, you can quickly open it in Zotero.
 
 ## 🧩 Files Included
 
